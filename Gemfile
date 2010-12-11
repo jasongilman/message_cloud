@@ -9,6 +9,10 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'devise'
 
+group :development, :test do
+  gem 'web-app-theme', '>= 0.6.2'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
