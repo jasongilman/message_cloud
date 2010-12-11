@@ -7,6 +7,14 @@
 				
 					<div class="group wat-cf">
 		        <div class="left">
+		          <%= f.label :username, :class=>"label" %>
+		        </div>
+		        <div class="right">
+		          <%= f.text_field :username, :class=>"text_field" %>
+		        </div>
+		      </div>
+					<div class="group wat-cf">
+		        <div class="left">
 		          <%= f.label :email, :class=>"label" %>
 		        </div>
 		        <div class="right">
@@ -18,7 +26,7 @@
 		          <%= f.label :password, :class=>"label" %>
 		        </div>
 		        <div class="right">
-		          <%= f.text_field :password, :class=>"text_field" %>
+		          <%= f.password_field :password, :class=>"text_field" %>
 		        </div>
 		      </div>
 					<div class="group wat-cf">
@@ -26,7 +34,7 @@
 		          <%= f.label :password_confirmation, :class=>"label" %>
 		        </div>
 		        <div class="right">
-		          <%= f.text_field :password_confirmation, :class=>"text_field" %>
+		          <%= f.password_field :password_confirmation, :class=>"text_field" %>
 		        </div>
 		      </div>
 			    <div class="group navform wat-cf">
