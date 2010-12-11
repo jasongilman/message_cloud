@@ -1,1 +1,20 @@
-/* Override here any style defined by web-app-theme */
+/* Override here any style defined by web-app-theme 
+ * 
+ */
+
+#user-navigation {
+  background-color: #f4f4f4;
+  background-image: url("themes/default/images/menubar-background.png");
+  background-repeat: repeat-x;
+}
+
+#user-navigation {
+  -moz-border-radius-topleft: 9px;
+  -webkit-border-top-left-radius: 9px;
+  -moz-border-radius-topright: 9px;
+  -webkit-border-top-right-radius: 9px;
+}
+
+#user-navigation  {
+    bottom: 0px;
+}
