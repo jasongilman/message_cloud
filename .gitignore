@@ -4,3 +4,4 @@ log/*.log
 tmp/**/*
 app/views/**/.tmp*
 public/.tmp*
+app/views/**/**/.tmp*
