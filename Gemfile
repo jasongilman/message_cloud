@@ -11,6 +11,13 @@ gem 'devise'
 
 group :development, :test do
   gem 'web-app-theme', '>= 0.6.2'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'cucumber-rails'
+  gem 'cucumber'
+  #gem 'rspec-rails'
+  gem 'spork'
+  gem 'launchy'    # So you can do Then show me the page
 end
 
 # Use unicorn as the web server
